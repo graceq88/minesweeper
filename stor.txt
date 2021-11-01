@@ -1,0 +1,35 @@
+
+int i;
+int j;
+for (int row = 0; row < game.length; row++) {
+    for (int col = 0; col < game[row].length; col++) {
+        game[row][col].flag();
+        if (game[row][col].clicked()) {
+            game[row][col].clicked();
+            
+            i = row;
+            j = col;
+            break;
+        }  
+        if (game[row][col].clicked()) {
+            break;
+        }
+    }
+}
+
+// if on the block and clicking
+if (PennDraw.mousePressed() && (PennDraw.mouseX() > x - width / 2 && 
+        PennDraw.mouseX() < x + width / 2) && (PennDraw.mouseY() > 
+        y - width / 2 && PennDraw.mouseX() < y + width / 2)) {   
+    // clicking on a flag
+    if (flagged) {
+        flagged = false;
+        revealed = false;
+        
+        // clicking on an unflagged block
+    } else {
+        revealed = true;
+    }
+    return true;
+}
+return false;

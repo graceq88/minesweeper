@@ -1,0 +1,30 @@
+/* Name: Grace Qian
+ * Pennkey: graceq
+ * Recitation: 202
+ * 
+ * readme
+ */
+
+How to run the program: 
+    Run Minesweeper.java with no arguments (java Minesweeper). This
+    will run the minesweeper game with 9 rows and columns and 10 
+    randomly placed mines
+    
+Additional features: 
+    I implemented a flagging feature, which can be used to mark 
+    unrevealed blocks. Blocks are both flagged and unflagged by 
+    pressing the "f" key.
+    
+File Descriptions:
+    
+    Block.java:
+        Creates instances of the Block object, which are the building
+        blocks of the minesweeper game. Each block contains fields that
+        determine what image they will display in PennDraw, as well as 
+        their size, depending on the number of cells in the grid.
+    
+    Game.java: 
+        
+    
+    
+    

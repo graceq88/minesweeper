@@ -1,0 +1,12 @@
+public class Block{
+
+    // fields
+    private String imgName;
+    private int value;
+    private int centerx;
+    private int centery;
+    
+    // methods
+    
+
+}

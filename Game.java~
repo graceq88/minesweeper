@@ -1,0 +1,19 @@
+public class Game {
+    // field
+    private Block[][] game;
+    
+    // constructor
+    public Game(int i) {
+        game = new Block[i][i];
+        for (int row = 0; row < game.length; row++) {
+            for (int col = 0; col < game.[row].length; col++) {
+                Block[row][col] = new Block();
+            }
+        }
+    }
+    
+    // set mines
+    public void setMines(int i, int j) {
+    
+    }
+}
